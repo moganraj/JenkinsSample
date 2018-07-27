@@ -1,7 +1,10 @@
-import junit.framework.Assert;
+import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
 
 public class Sample {
-public static void main(String[] args) {
+	
+@BeforeMethod
+public void test() {
 	for(int i =1; i<=100; i++){
 		System.out.println(i);
 	}
