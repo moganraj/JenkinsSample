@@ -18,7 +18,7 @@
 		<testng.version>7.1.0</testng.version>
 		<webdrivermanager.version>3.8.1</webdrivermanager.version>
 	</properties>
-	<build>
+	<build> 
 		<plugins>
 			<plugin>
 				<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
