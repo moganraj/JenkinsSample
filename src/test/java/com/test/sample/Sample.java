@@ -10,7 +10,7 @@ import com.main.SampleMain.SampleMain;
 public class Sample {
 	@BeforeTest
 	public void Beforetest() {
-		System.out.println("Before ");
+		System.out.println("Before Test");
 		//Assert.assertEquals(true, true);
 	}
 
@@ -18,13 +18,13 @@ public class Sample {
 	public void AtTest() {
 		SampleMain sm = new SampleMain();
 		int sum = sm.funSampleMain(2,2);
-		System.out.println(sum);
+		System.out.println("Sum: " + sum);
 		Assert.assertEquals(sum, 4);
 	}
 	
 	@AfterTest
 	public void Aftertest() {
-		System.out.println("Before ");
+		System.out.println("After Test ");
 		//Assert.assertEquals(true, true);
 	}
 
